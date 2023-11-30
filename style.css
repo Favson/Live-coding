@@ -1,0 +1,106 @@
+body{
+    overflow-x: hidden;
+}
+.links{
+    color: #0e0a47;
+    font-size: 20px;
+}
+
+.navtext{
+    position: relative;
+    left: 300px;
+}
+
+.Smart{
+    width: 100%;
+    font-size: 60px;
+    font-weight: 50px;
+}
+.ALL-IN-ONE{
+    width: 95%;
+}
+.requestdemo{
+    background-color:white; color:#0e0a47; border-radius:6px
+}
+.requestDemo2{
+    background-color: #0e0a47; color:white; border-radius:6px
+}
+.requestdemo:hover {
+    background-color:#f2f4ff;
+}
+.requestDemo2:hover{
+    background-color: orange;
+}
+
+.EDOZZIERforyou{
+    padding-top: 200px;
+}
+.romecenter{
+    padding-top: 150px;
+}
+
+.rome{
+    width: 45%;
+    font-size: 50px;
+    color: #0e0a47;
+}
+.romep{
+    width: 40%;
+}
+/* learningmadeeasy */
+.learningmadeeasy{
+    gap:200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.Learningmadeasy{
+    background-color: #0e0a47;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Learningmadeasy2{
+    background-color: #f2f4ff;
+    color: #0e0a47;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.Learningmadeasy2:hover{
+    background-color: #0e0a47;
+    color: white;
+}
+
+.Learningmadeasy3{
+    background-color: #f2f4ff;
+    color: #0e0a47;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.Learningmadeasy3:hover{
+    background-color: #0e0a47;
+    color: white;   
+}
+
+
+@media screen and (max-width:475px) {
+    #request{
+        display: none;
+    } 
+    .EDOZZIERforyou{
+        text-align: center;
+        justify-content: center;
+    }
+    .edozzierheader{
+        width:100%
+    }
+    .learningmadeeasyimg{
+        width: 100%;
+        margin-top: -150px;
+    }
+}
+
