@@ -8,11 +8,11 @@ body{
 
 .navtext{
     position: relative;
-    left: 300px;
+    left: 230px;
 }
 
 .Smart{
-    width: 100%;
+    width: 150%;
     font-size: 60px;
     font-weight: 50px;
 }
