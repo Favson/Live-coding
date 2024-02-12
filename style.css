@@ -3,12 +3,34 @@ body{
 }
 .links{
     color: #0e0a47;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .navtext{
     position: relative;
-    left: 230px;
+    left: 150px;
+    gap: 32px;
+}
+
+#navbar1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent; /* Initial color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    z-index: 1000; /* Ensure navbar appears above other content */
+}
+
+#navbar1.scrolled{
+    background-color: white; /* New color when scrolled */
+}
+
+#startForFree{
+    background-color: #0e0a47; border:none; color:white
+}
+#startForFree:hover{
+    background-color: #2d2787;
 }
 
 .Smart{

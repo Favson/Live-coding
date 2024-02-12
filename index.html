@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg position-fixed z-index-1 w-100" style="background-color: #f2f4ff;">
+    <nav class="navbar navbar-expand-lg position-fixed z-index-1 w-100" style="background-color: #f2f4ff; padding-top: 20px;" id="navbar1">
         <div class="container-fluid navdiv">
           <a class="navbar-brand ps-5" href="#"><img src="images/Edozzier-1x.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,14 +32,14 @@
             </ul>
             <li class="nav-item links d-flex align-items-center gap-4 me-lg-5 me-lg-o request">
                 <a class="nav-link active" href="#" style="color: #0e0a47;">Request Demo</a>
-                <button class="btn p-3" type="submit" style="background-color: #0e0a47; border:none; color:white">START FOR FREE</button>
+                <button class="btn p-3" id="startForFree" type="submit">START FOR FREE</button>
               </li>
 
           </div>
         </div>
     </nav>
 
-    <main style="background-color: #f2f4ff;">
+    <main style="background-color: #f2f4ff;" id="content">
         <div class="container">
             <div class="row EDOZZIERforyou">
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -167,5 +167,6 @@
     </section>
 
     <script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Navbar Color Change</title>
+  <link rel="stylesheet" href="inj.css">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg position-fixed z-index-1 w-100" style="background-color: #f2f4ff; padding-top: 20px;" id="navbar1">
+        <div class="container-fluid navdiv">
+          <a class="navbar-brand ps-5" href="#"><img src="images/Edozzier-1x.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-lg-auto me-sm-0 mb-2 mb-lg-0 navtext">
+              <li class="nav-item links">
+                <a class="nav-link active links" aria-current="page" href="#" style="color: #0e0a47;">Solutions</a>
+              </li>
+              <li class="nav-item links">
+                <a class="nav-link active" href="#" style="color: #0e0a47;">Company</a>
+              </li>
+             <li class="nav-item links">
+                <a class="nav-link active" href="#" style="color: #0e0a47;">Pricing</a>
+                </li>
+             <li class="nav-item links">
+                <a class="nav-link active" href="#" style="color: #0e0a47;">FAQs</a>
+              </li>
+            </ul>
+            <li class="nav-item links d-flex align-items-center gap-4 me-lg-5 me-lg-o request">
+                <a class="nav-link active" href="#" style="color: #0e0a47;">Request Demo</a>
+                <button class="btn p-3" id="startForFree" type="submit">START FOR FREE</button>
+              </li>
+
+          </div>
+        </div>
+    </nav>
+  <div id="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum beatae veniam iste maiores non aut pariatur quo molestias impedit porro eveniet repellendus tempore placeat dicta, nobis labore perspiciatis iusto velit.</p>
+    <p>yvyudsbcudcuisdk</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste aspernatur maxime harum sed eligendi corporis voluptatibus minus? Ullam, expedita aut quia animi nemo, doloremque similique reprehenderit, sunt reiciendis dignissimos ad!</p>
+  </div>
+
+  <script>
+    // Get the navbar element
+var navbar1 = document.getElementById("navbar1");
+
+// Function to change navbar color on scroll
+function changeNavbarColor() {
+  if (window.scrollY > 0) {
+    navbar1.classList.add("scrolled");
+  } else {
+    navbar1.classList.remove("scrolled");
+  }
+}
+
+// Listen for the scroll event and call the function
+window.addEventListener("scroll", changeNavbarColor);
+
+  </script>
+</body>
+
+<script src="script.js"></script>
+</html>
